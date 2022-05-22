@@ -38,5 +38,10 @@
         android:name="ru.mirea.kovalyov.mireaproject.MusicFragment"
         android:label="fragment_music"
         tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/apparatFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.ApparatFragment"
+        android:label="fragment_apparat"
+        tools:layout="@layout/fragment_apparat" />
 
 </navigation>
