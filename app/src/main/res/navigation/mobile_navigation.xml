@@ -43,5 +43,20 @@
         android:name="ru.mirea.kovalyov.mireaproject.ApparatFragment"
         android:label="fragment_apparat"
         tools:layout="@layout/fragment_apparat" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.StoriesFragment"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/addStoryFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.AddStoryFragment"
+        android:label="fragment_add_story"
+        tools:layout="@layout/fragment_add_story" />
 
 </navigation>

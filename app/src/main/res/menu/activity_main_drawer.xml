@@ -27,6 +27,9 @@
             android:title="Music" />
         <item
             android:id="@+id/apparatFragment"
-            android:title="Music" />
+            android:title="Apparat" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="settings" />
     </group>
 </menu>
