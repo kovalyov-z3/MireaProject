@@ -58,5 +58,15 @@
         android:name="ru.mirea.kovalyov.mireaproject.AddStoryFragment"
         android:label="fragment_add_story"
         tools:layout="@layout/fragment_add_story" />
+    <fragment
+        android:id="@+id/ipInfoFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.IpInfoFragment"
+        android:label="fragment_ip_info"
+        tools:layout="@layout/fragment_ip_info" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.mirea.kovalyov.mireaproject.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 
 </navigation>

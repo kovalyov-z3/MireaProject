@@ -16,6 +16,9 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="@string/menu_maps" />
 	<item
             android:id="@+id/nav_calculator"
             android:title="@string/menu_calculator" />
@@ -30,6 +33,9 @@
             android:title="Apparat" />
         <item
             android:id="@+id/settingsFragment"
+            android:title="settings" />
+        <item
+            android:id="@+id/ipInfoFragment"
             android:title="settings" />
     </group>
 </menu>

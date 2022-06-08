@@ -9,6 +9,28 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_calculator">Calculator</string>
+    <string name="menu_IpInfo">IpInfo</string>
+    <string name="menu_maps">Maps</string>
+
+    <string name="Mirea1">Кампус на Проспекте Вернадского, 78, 1947г.</string>
+    <string name="Mirea2">Кампус на Проспекте Вернадского, 86</string>
+    <string name="Mirea3">Кампус на улице Стромынка</string>
+    <string name="Mirea4">Кампус на улице Малая Пироговская</string>
+    <string name="Mirea5">Кампус на улице Соколиная Гора</string>
+    <string name="Mirea6">Колледж</string>
+    <string name="Mirea7">ВУЦ</string>
+    <string name="Mirea8">Филиал в г. Ставрополе</string>
+    <string name="Mirea9">Филиал в г. Фрязино</string>
+
+    <string name="Mirea1Snippet">Проспект Вернадского, д. 78, 55.6695953,37.4798824</string>
+    <string name="Mirea2Snippet">Проспект Вернадского, д. 86, 55.6618971,37.4745255"</string>
+    <string name="Mirea3Snippet">ул. Стромынка, д.20, 55.7938058,37.7000664</string>
+    <string name="Mirea4Snippet">ул. Малая Пироговская, д. 1, стр. 5, 55.7317977,37.5745506</string>
+    <string name="Mirea5Snippet">5-я улица Соколиной Горы, д. 22, 55.7648399,37.7392163</string>
+    <string name="Mirea6Snippet">1-й Щипковский переулок, д. 23, 55.7250254,37.6304868</string>
+    <string name="Mirea7Snippet">ул. Усачева, д.7/1 55.728676,37.5708812</string>
+    <string name="Mirea8Snippet">Проспект Кулакова, д. 8 в квартале 601, 45.0508385,41.9097125</string>
+    <string name="Mirea9Snippet">ул. Вокзальная, д.2а, 55.9604333,38.049562</string>
     <string name="menu_web">Browser</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -16,4 +38,16 @@
     <string name="menu_settingsFragment">ApparatFragment</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
 </resources>
