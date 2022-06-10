@@ -37,9 +37,6 @@ public class IpInfoFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_ip_info, container, false);
         textViewIp = view.findViewById(R.id.textViewIp);
-        textViewRegion = view.findViewById(R.id.textViewRegion);
-        textViewCountry = view.findViewById(R.id.textViewCountry);
-        textViewCity = view.findViewById(R.id.textViewCity);
         view.findViewById(R.id.button).setOnClickListener(this::onClick);
 
         return view;
@@ -85,11 +82,10 @@ public class IpInfoFragment extends Fragment {
                 String country = responseJson.getString("country");
                 String regionName = responseJson.getString("regionName");
                 String city = responseJson.getString("city");
+                String res = ip + " " + country + " " + regionName + " " + city;
 
-                textViewIp.setText(ip);
-                textViewRegion.setText(regionName);
-                textViewCountry.setText(country);
-                textViewCity.setText(city);
+                textViewIp.setText(res);
+
                 Log.d(IpInfoFragment.class.getSimpleName(), ip);
             } catch (JSONException e) {
                 e.printStackTrace();
