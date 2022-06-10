@@ -18,7 +18,7 @@ import ru.mirea.kovalyov.mireaproject.R;
 public class SettingsFragment extends Fragment {
 
     private EditText editTextName;
-    private EditText editTextPhone;
+    private EditText editTextUniversity;
 
     private SharedPreferences preferences;
 
@@ -32,7 +32,7 @@ public class SettingsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_settings, container, false);
 
         editTextName = view.findViewById(R.id.editTextName);
-        editTextPhone = view.findViewById(R.id.editTextPhone);
+        editTextUniversity = view.findViewById(R.id.editTextUniversity);
 
         view.findViewById(R.id.buttonSavePrefs).setOnClickListener(this::onClickSave);
 
@@ -45,12 +45,12 @@ public class SettingsFragment extends Fragment {
 
         try {
             String param1 = editTextName.getText().toString();
-            int param2 = Integer.parseInt(editTextPhone.getText().toString());
+            String param2 = editTextUniversity.getText().toString();
 
             SharedPreferences.Editor editor = preferences.edit();
 
             editor.putString(PARAMETER_ONE, param1);
-            editor.putInt(PARAMETER_TWO, param2);
+            editor.putString(PARAMETER_TWO, param2);
 
             Toast.makeText(getActivity(), "Parameter save", Toast.LENGTH_SHORT).show();
         } catch (NumberFormatException exception) {

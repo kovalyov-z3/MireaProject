@@ -14,6 +14,8 @@ import ru.mirea.kovalyov.mireaproject.R;
 
 public class CalculateFragment extends Fragment {
     private EditText editText;
+    private EditText editText1;
+    private EditText editText2;
     private TextView textView;
 
     @Override
@@ -22,19 +24,22 @@ public class CalculateFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_calculate, container, false);
         view.findViewById(R.id.calculateButton).setOnClickListener(this::onClickCalculate);
         editText = view.findViewById(R.id.editTextCalculate);
+        editText1 = view.findViewById(R.id.editTextCalculateSymbol);
+        editText2 = view.findViewById(R.id.editTextCalculate1);
         textView = view.findViewById(R.id.textViewResult);
         return view;
     }
 
     public void onClickCalculate(View view) {
         String input = editText.getText().toString();
-        String[] arr = input.split(" ");
+        String input2 = editText2.getText().toString();
+        String input1 = editText1.getText().toString();
         double result = 0;
 
         try {
-            double x = Double.parseDouble(arr[0]);
-            double y = Double.parseDouble(arr[2]);
-            switch (arr[1]) {
+            double x = Double.parseDouble(input);
+            double y = Double.parseDouble(input2);
+            switch (input1) {
                 case "+":
                     result = x + y;
                     break;

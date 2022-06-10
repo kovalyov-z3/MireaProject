@@ -23,12 +23,12 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editTextUniversity"
         android:layout_width="330dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="phone"
-        android:text="Phone"
+        android:text="University"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -48,6 +48,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.409" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

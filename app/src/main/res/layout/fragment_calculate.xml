@@ -14,7 +14,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Введите выражение в виде: x + y" />
+            android:text="Введите выражение" />
 
         <EditText
             android:id="@+id/editTextCalculate"
@@ -25,13 +25,31 @@
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
 
+        <EditText
+            android:id="@+id/editTextCalculateSymbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <EditText
+            android:id="@+id/editTextCalculate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
         <Button
             android:id="@+id/calculateButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/black"
             android:onClick="onClickCalculate"
             android:text="Посчитать" />
-
 
         <TextView
             android:id="@+id/textViewResult"
